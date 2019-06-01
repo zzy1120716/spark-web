@@ -35,4 +35,9 @@ public class HelloBoot {
         return new ModelAndView("echarts");
     }
 
+    @RequestMapping(value = "/second", method = RequestMethod.GET)
+    public ModelAndView secondDemo() {
+        return new ModelAndView("test1");
+    }
+
 }
